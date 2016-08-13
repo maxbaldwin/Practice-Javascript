@@ -33,3 +33,26 @@ for (i = 0; i < firstNamePresidents.length; i++) {
 //console.log("President #1 was " + firstNamePresidents[0] + " " + lastNamePresidents[0])
 //console.log("President #1 was " + firstNamePresidents[1] + " " + lastNamePresidents[1])
 //console.log("President #1 was " + firstNamePresidents[2] + " " + lastNamePresidents[2])
+
+//Solving problem four
+
+//inserting given variable in instructions
+var antSpecies = {
+  argentine: {},
+  army: {},
+  bigHeaded: {},
+  black: {},
+  bull: {},
+  carpenter: {},
+  crazy: {},
+  fire: {},
+  glider: {},
+  honeyPot: {},
+  jackJumper: {}
+}
+
+  console.log(antSpecies);
+
+
+
+
