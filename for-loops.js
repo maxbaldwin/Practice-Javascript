@@ -17,3 +17,19 @@ var count2;
 for (count2 = 4096; count2 > 1; count2/=2) {
   document.write(count2 + " "); 
 } ; 
+
+//Solving problem three, creating an array of presidents and use string concatenation to put them to the DOM
+
+//create two arrays you'll be using
+var firstNamePresidents = ["George", "John", "Thomas"]; 
+var lastNamePresidents = ["Washington", "Adams", "Jefferson"]; 
+var presidentElement = document.getElementById("presidents");
+
+for (i = 0; i < firstNamePresidents.length; i++) {
+  presidentElement.innerHTML += ("<div>" + firstNamePresidents[i] + " " + lastNamePresidents[i] + "</div>")
+}
+
+//can't do below, it says to create a for loop
+//console.log("President #1 was " + firstNamePresidents[0] + " " + lastNamePresidents[0])
+//console.log("President #1 was " + firstNamePresidents[1] + " " + lastNamePresidents[1])
+//console.log("President #1 was " + firstNamePresidents[2] + " " + lastNamePresidents[2])
